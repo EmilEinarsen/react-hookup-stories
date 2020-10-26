@@ -11,6 +11,8 @@ import OnClickOutside from './stories/OnClickOutside/OnClickOutsideContainer'
 import Async from './stories/Async/AsyncContainer'
 import WindowScroll from './stories/WindowScroll/WindowScrollContainer'
 import Field from './stories/Field/FieldContainer'
+import WindowSize from './stories/WindowSize/WindowSizeContainer'
+import ScreenType from './stories/ScreenType/ScreenTypeContainer'
 
 const App = () => (
 	<>
@@ -26,6 +28,8 @@ const App = () => (
 		<Async />
 		<WindowScroll />
 		<Field />
+		<WindowSize />
+		<ScreenType />
 	</>
 )
 

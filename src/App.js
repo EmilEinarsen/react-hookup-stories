@@ -13,6 +13,7 @@ import WindowScroll from './stories/WindowScroll/WindowScrollContainer'
 import Field from './stories/Field/FieldContainer'
 import WindowSize from './stories/WindowSize/WindowSizeContainer'
 import ScreenType from './stories/ScreenType/ScreenTypeContainer'
+import Memento from './stories/Memento/MementoContainer'
 
 const App = () => (
 	<>
@@ -30,6 +31,7 @@ const App = () => (
 		<Field />
 		<WindowSize />
 		<ScreenType />
+		<Memento />
 	</>
 )
 
